@@ -1,0 +1,39 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width:750px) {
+    nav {
+        display: block;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-items: center;
+        align-items: center;
+        height: 100px;
+    }
+    nav details ul {
+        position: fixed;
+        right: 3%;
+        left: 0;
+    }
+    nav .imageHolder {
+        width: 100%;
+        height: 100px;
+    }
+    nav .imageHolder img {
+        width: 100px;
+        height: 100px;
+    }
+    ul {
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        list-style-type: none;
+        margin-bottom: 4%;
+        outline: 2px solid red;
+        width: 50%
+    }
+    ul li {
+        margin: 10px;
+    }
+} */
